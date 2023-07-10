@@ -1,0 +1,32 @@
+:root {
+}
+
+/* ** Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ** General */
+
+/* ** debug */
+
+/* height */
+
+.debug .smaller {
+  height: 50px;
+}
+
+.debug .small {
+  height: 80px;
+}
+
+.debug .tall {
+  height: 300px;
+}
+
+.debug .taller {
+  height: 500px;
+}
