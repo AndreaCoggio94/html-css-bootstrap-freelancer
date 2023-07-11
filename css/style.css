@@ -26,6 +26,8 @@
   /* web site color palette */
   --primary_bg_color: #2c3e50;
   --secondary_bg_color: #1abc9c;
+  --footer_primary_bg_color: #3a546d;
+  --footer_secondary_bg_color: #2c3e50;
 }
 
 /* ** Reset */
@@ -52,7 +54,7 @@
   background-color: currentColor;
   height: 0.3rem;
   border-radius: 30px;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
@@ -89,14 +91,36 @@
 
 /* contact me */
 
+#contact .star {
+  background-color: var(--white);
+}
+
 /* * footer */
 
+#footer {
+  color: var(--white);
+}
+
 /* footer top */
+
+#footer .footer-top {
+  background-color: var(--footer_primary_bg_color);
+}
+
+#footer .footer-top-middle span {
+  width: 3rem;
+  aspect-ratio: 1 / 1;
+}
 
 /* footer bottom */
 
 #footer .footer-bottom {
-  padding: 1rem;
+  padding: 2rem 1rem;
+  background-color: var(--footer_secondary_bg_color);
+}
+
+#footer .footer-bottom address {
+  margin-bottom: 0;
 }
 
 /* ** debug */
