@@ -50,7 +50,7 @@
 
 .line {
   background-color: currentColor;
-  height: 0.5rem;
+  height: 0.3rem;
   border-radius: 30px;
   width: 50%;
   margin: auto;
@@ -71,6 +71,10 @@
   background-color: var(--secondary_bg_color);
 }
 /* porfolio */
+
+#portfolio .star {
+  background-color: var(--white);
+}
 
 /* about */
 
