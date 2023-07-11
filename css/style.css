@@ -78,6 +78,15 @@
 
 /* about */
 
+#about {
+  background-color: var(--secondary_bg_color);
+  color: var(--white);
+}
+
+#about .star {
+  background-color: var(--secondary_bg_color);
+}
+
 /* contact me */
 
 /* * footer */
