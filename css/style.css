@@ -44,8 +44,6 @@
 
 #header {
   background-color: var(--primary_bg_color);
-  height: 100px;
-  /* padding: calc((100px - 56px) / 2) 0; */
 }
 
 /* * main */
