@@ -98,6 +98,12 @@
   color: var(--white);
 }
 
+#contact .form-control {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
 /* * footer */
 
 #footer {
